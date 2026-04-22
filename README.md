@@ -17,5 +17,7 @@ Delete the entire initialization, melo del all, and all stored data.
 Install node js on the terminal, install and use this command
 
 npm init -y
+
 npm install electron --save-dev
+
 npm start
