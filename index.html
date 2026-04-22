@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="left-panel">
+            <div class="calendar-header">
+                <button id="prevMonth">&lt;</button>
+                <h2 id="monthDisplay"></h2>
+                <button id="nextMonth">&gt;</button>
+            </div>
+            <div class="weekdays">
+                <div>Sun</div><div>Mon</div><div>Tue</div><div>Wed</div><div>Thu</div><div>Fri</div><div>Sat</div>
+            </div>
+            <div id="daysGrid" class="days"></div>
+        </div>
+
+        <div class="right-panel">
+            <div class="add-section card">
+                <h3 id="selectedDateText">Select a date</h3>
+                <div class="input-group">
+                    <input type="text" id="eventInput" placeholder="What's the plan?">
+                    <button id="addBtn">Add</button>
+                </div>
+            </div>
+            
+            <div class="list-section card">
+                <h3>Schedule List</h3>
+                <ul id="eventList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
