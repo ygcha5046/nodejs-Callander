@@ -1,4 +1,5 @@
 #Terminal Version
+---
 features, commands, examples
 
 The calendar view, melo, today's date and the day you have the schedule are shown in color.
@@ -12,7 +13,9 @@ delete schedule, melodel \[date], melodel 2026-04-25 (delete date schedule)
 Delete the entire initialization, melo del all, and all stored data.
 
 #App version
+---
 Install node js on the terminal, install and use this command
+
 npm init -y
 npm install electron --save-dev
 npm start
